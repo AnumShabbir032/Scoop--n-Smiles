@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 98px;
+    background-color: #08080a;
+}
+.navbar .logo img{
+    float: left;
+}
+.logo .img{
+    height: 97px;
+    width: 126px;
+}
+.navbar nav{
+    float: right;
+    height: 85px;
+    width: 60%;
+    padding: 25px 25px;
+    margin: 7px;
+
+}
+ul {
+    margin: 10px;
+}
+nav ul li{
+    margin: 22px;
+    padding: 13px;
+    text-align: right;
+    display: inline;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #b69687;
+}
+.row-1{
+    border: 1px solid;
+    height: 550px;
+    background: #0a0a0c;
+}
+.row-1 h1 , p{
+    display: inline;
+}
+.row-1 h1{
+    font-size: 44px;
+    color: #b69687;
+    font-family: cursive;
+}
+.row-1 p{
+    font-size: 30px;
+    font-family: cursive;
+    color: #5a433b;
+}
+.banner-text{
+    position: absolute;
+    top: 34%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+.banner-img{
+    float: right;
+    height: 548px;
+    width: auto;  
+    transition: transform 0.5s;
+}
+.banner-img:hover{
+    transform: translateY(-5px);
+}
+.row-2{
+    border: 1px solid;
+    height: 625px;
+    background: #040404;
+   
+}
+.content-img{
+    float: left;
+    height: 623px;
+    width: auto;
+    transition: transform 0.5s;  
+}
+.content-img:hover{
+    transform: translateY(-5px);
+}
+.content-text{
+    position: absolute;
+    top: 110%;
+    left: 62%;
+    color: #b69687;;
+    display: inline;
+    transform: translate(-50%, -50%);
+}
+.content-text h1{
+    font-family: cursive;
+    font-size: 35px;
+}
+.content-btn{
+    background-color:#6a4b3e;
+    border: none;
+    color: white;
+    padding: 16px 60px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+}
+.content-btn:hover{
+     opacity: 0.7; 
+}
+.footer{
+    height: 80px;
+    background-color: #070000ed;
+}
+.icon{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.fas{
+    font-size: 30px;
+    color: #805f51;
+    text-align: center;
+}
+.fas li , h6{
+    text-align: center;
+}
+
